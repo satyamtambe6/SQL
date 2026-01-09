@@ -1,0 +1,5 @@
+use satyam;
+create table studnet 
+( id int ,
+  name varchar(30),
+  age int );
