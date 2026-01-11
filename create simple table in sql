@@ -1,0 +1,21 @@
+use Apple;
+Database changed
+mysql> create table fruit (
+    ->
+    -> name_fruit varchar(20),
+    -> fruit_id int primary key not null,
+    -> fruit_MRP int primary key not null,
+    -> export varchar(50));
+
+Query OK, 0 rows affected (0.04 sec)
+// here is my output //
+mysql> desc fruit ;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| fruit_id   | int         | NO   | PRI | NULL    |       |
+| name_fruit | varchar(20) | NO   |     | NULL    |       |
+| fruit_MRP  | int         | NO   |     | NULL    |       |
+| export     | varchar(50) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+  
